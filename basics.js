@@ -276,3 +276,21 @@ const products = [
 for (const product of products) {
     console.log(`${product.name} costs $${product.price}.`);
 }
+const phone = {
+  brand: "Samsung",
+  model: "A15",
+  storage: "128GB",
+  isNew: true
+};
+
+console.log(`My phone is a ${phone.brand} ${phone.model} with ${phone.storage} storage.`);
+
+const products = [
+  { name: "Bread", price: 70 },
+  { name: "Milk", price: 80 },
+  { name: "Eggs", price: 450 }
+];
+
+for (const product of products) {
+  console.log(`${product.name} costs ${product.price}.`);
+}
