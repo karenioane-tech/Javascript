@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 16 - Events</title>
+  <link rel="stylesheet" href="lesson16-events.css">
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <h1>JavaScript Events</h1>
+      <p id="event-message">Interact with the page to see events happen.</p>
+
+      <div class="actions">
+        <button id="click-button">Click me</button>
+        <button id="reset-button">Reset</button>
+      </div>
+
+      <label for="username-input">Name</label>
+      <input id="username-input" type="text" placeholder="Type your name">
+      <p id="typing-output">Waiting for input...</p>
+
+      <div id="hover-box" class="hover-box">Hover here</div>
+
+      <form id="signup-form">
+        <label for="email-input">Email</label>
+        <input id="email-input" type="email" placeholder="you@example.com">
+        <button type="submit">Sign up</button>
+      </form>
+      <p id="form-result">No form submitted yet.</p>
+
+      <input id="color-picker" type="color" value="#ff0000">
+      <button id="change-background-color">Change Background Color</button>
+      <p id="color-result">Current background colour: black</p>
+    </section>
+  </main>
+
+  <script src="lesson16-events.js"></script>
+</body>
+</html>

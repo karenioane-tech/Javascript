@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 20 - Async and Promises</title>
+  <link rel="stylesheet" href="lesson20-async-promises.css">
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <h1>Async and Promises</h1>
+      <p id="message">Async code lets JavaScript wait for work to finish.</p>
+
+      <div class="actions">
+        <button id="load-user-button">Load user</button>
+        <button id="load-tasks-button">Load tasks</button>
+        <button id="error-button">Try error</button>
+      </div>
+
+      <div id="output" class="output">Nothing loaded yet.</div>
+
+      <ul id="task-list" class="task-list"></ul>
+
+      <section class="practice">
+        <h2>Practice</h2>
+        <p>Create another fake API function that loads a score after 1 second.</p>
+        <button id="load-score-button">Load score</button>
+        <div id="score-output" class="output">No score loaded yet.</div>
+      </section>
+    </section>
+  </main>
+
+  <script src="lesson20-async-promises.js"></script>
+</body>
+</html>

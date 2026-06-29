@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f5fb;
+  color: #2f2b3a;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.panel {
+  width: min(680px, 100%);
+  background: white;
+  border: 1px solid #ddd7e8;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin: 18px 0 6px;
+  font-weight: bold;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #bfb6ce;
+  border-radius: 6px;
+  padding: 10px 12px;
+}
+
+input.valid {
+  border-color: #2f9e44;
+}
+
+input.invalid {
+  border-color: #d9480f;
+}
+
+button {
+  margin-top: 18px;
+  border: 0;
+  border-radius: 6px;
+  background: #6741d9;
+  color: white;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5532b8;
+}
+
+.error {
+  min-height: 20px;
+  margin: 6px 0 0;
+  color: #d9480f;
+}
+
+.result {
+  margin-top: 20px;
+  border: 2px solid #c8bddc;
+  border-radius: 8px;
+  background: #f1ecfb;
+  padding: 18px;
+}
+
+.result.success {
+  border-color: #74b816;
+  background: #ebfbee;
+}
+
+.practice {
+  margin-top: 24px;
+  border-top: 1px solid #ddd7e8;
+  padding-top: 18px;
+}

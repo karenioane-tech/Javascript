@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 18 - Local Storage</title>
+  <link rel="stylesheet" href="lesson18-local-storage.css">
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <h1>Local Storage</h1>
+      <p id="welcome-message">Save data in the browser and load it later.</p>
+
+      <label for="name-input">Name</label>
+      <input id="name-input" type="text" placeholder="Type your name">
+
+      <label for="theme-select">Favorite theme</label>
+      <select id="theme-select">
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+
+      <div class="actions">
+        <button id="save-button">Save settings</button>
+        <button id="load-button">Load settings</button>
+        <button id="clear-button">Clear settings</button>
+        <button id="reset-button">Reset settings</button>
+      </div>
+
+      <div id="profile-card" class="profile-card">
+        <strong id="profile-name">No name saved yet.</strong>
+        <span id="profile-theme">Theme: blue</span>
+      </div>
+
+      <p id="status">Status: Ready</p>
+
+      <section class="practice">
+        <h2>Practice</h2>
+        <p>Try saving your favorite lesson number too.</p>
+        favorite lesson number: <input id="lesson-input" type="number" placeholder="Enter your favorite lesson number 16">
+      </section>
+    </section>
+  </main>
+
+  <script src="lesson18-local-storage.js"></script>
+</body>
+</html>

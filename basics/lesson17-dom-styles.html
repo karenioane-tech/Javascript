@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 17 - DOM Styles and Classes</title>
+  <link rel="stylesheet" href="lesson17-dom-styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <h1>DOM Styles and Classes</h1>
+      <p id="message">Use JavaScript to change how elements look.</p>
+
+      <div class="actions">
+        <button id="highlight-button">Highlight</button>
+        <button id="toggle-theme-button">Toggle theme</button>
+        <button id="hide-button">Hide message</button>
+        <button id="make-round-button">Make Round</button>
+        <button id="reset-styles-button">Reset Styles</button>
+        <button id="change-text-color-button">Change Text Color</button>
+      </div>
+
+      <div id="preview-box" class="preview-box">
+        Style changes will appear here.
+      </div>
+
+      <label for="size-input">Box size</label>
+      <input id="size-input" type="range" min="120" max="280" value="180">
+      <p id="size-output">Current size: 180px</p>
+
+      <label for="color-select">Box color</label>
+      <select id="color-select">
+        <option value="#eaf4ff">Blue</option>
+        <option value="#edf7ed">Green</option>
+        <option value="#fff3d6">Yellow</option>
+        <option value="#ffe8e8">Red</option>
+      </select>
+
+      <p id="status">Status: Ready</p>
+    </section>
+  </main>
+
+  <script src="lesson17-dom-styles.js"></script>
+</body>
+</html>

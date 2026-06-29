@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 19 - Form Validation</title>
+  <link rel="stylesheet" href="lesson19-form-validation.css">
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <h1>Form Validation</h1>
+      <p>Check form values before using them.</p>
+
+      <form id="account-form" novalidate>
+        <label for="username-input">Username</label>
+        <input id="username-input" type="text" placeholder="At least 3 characters">
+        <p id="username-error" class="error"></p>
+
+        <label for="email-input">Email</label>
+        <input id="email-input" type="email" placeholder="you@example.com">
+        <p id="email-error" class="error"></p>
+
+        <label for="password-input">Password</label>
+        <input id="password-input" type="password" placeholder="At least 6 characters">
+        <p id="password-error" class="error"></p>
+
+        <button type="submit">Create account</button>
+      </form>
+
+      <div id="result" class="result">No account created yet.</div>
+
+      <section class="practice">
+        <h2>Practice</h2>
+        <p>Add a confirm password field and check that both passwords match.</p>
+        <label for="confirm-password-input">Confirm Password</label>
+        <input id="confirm-password-input" type="password" placeholder="Confirm your password">
+        <p id="confirm-password-error" class="error"></p>
+      </section>
+    </section>
+  </main>
+
+  <script src="lesson19-form-validation.js"></script>
+</body>
+</html>
